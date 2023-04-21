@@ -6,7 +6,7 @@ namespace API.Data
     {
         public static void Initialize(StoreContext context)
         {    
-            if (context.Products.Any()) return;
+            if (context.Products.Any()) return; 
 
             var products = new List<Product>
             {
